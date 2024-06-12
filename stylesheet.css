@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    background-color: hsl(180, 69%, 71%);
+    padding: 10px;
+
+}
+.navbar ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+    
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.navbar a:hover{
+    background-color: hsl(0, 2%, 58%)
+}
+.navbar li{
+    float: left;
+}
+
+.aside{
+    font-family: Arial, sans-serif;
+    width: 30%;
+    float: left;
+}
+
+
+
+.image{
+    float: left;
+    width: 10% ;
+  
+}
+.article{
+    width: 20%;
+    float: right;
+}
+.article{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+.article ul{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+footer {
+    background-color:hsl(180, 69%, 71%);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width:600px) { aside, section, article{
+    width: 100%;
+}
+    
+}

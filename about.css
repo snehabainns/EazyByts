@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 96%);
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.1);
+}
+h1, p {
+    text-align: center;
+}
+.team-member {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.team-member .info {
+    max-width: 400px;
+}
